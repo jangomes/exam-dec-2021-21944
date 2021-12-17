@@ -1,0 +1,180 @@
+1 – Inheritance:
+
+We can understand an interface as being a kind of contract. The interface that will be a contract between itself and any class or structure that implements it. This means that a class that implements an interface is obliged to implement all its members and if it doesn't, an error will be generated. Note: By convention, interface names begin with capital I.
+
+//Janaina Gomes 21944- Exam dec 2021
+using System;
+namespace SECTION_B_Oop_exam_december_2021_21944
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            IStart oStart = new Doc();
+            oStart.Open();
+            oStart.Writing();
+            Console.ReadKey();
+            IClosed oClosed = new Doc();
+            oClosed.Reading();
+            oClosed.Closing();
+            Console.ReadKey();
+        }
+        public interface IStart
+        {
+            void Open();
+            void Writing();
+        }
+        public interface IClosed
+        {
+            void Reading();
+            void Closing();
+        }
+    }
+}
+
+
+
+//Janaina Gomes 21944- Exam dec 2021
+using System;
+using static SECTION_B_Oop_exam_december_2021_21944.Program;
+
+namespace SECTION_B_Oop_exam_december_2021_21944
+{
+        public class Doc : IStart, IClosed
+    {
+        #region IStart
+        public void Open()
+        {
+            Console.WriteLine("Opening the book");
+        }
+        public void Writing()
+        {
+            Console.WriteLine("writing in the book");
+        }
+        #endregion 
+        #region IClosed
+        public void Reading()
+        {
+            Console.WriteLine("Reading the book");
+        }
+        public void Closing()
+        {
+            Console.WriteLine("Closing the book");
+        }
+        #endregion // IClosed
+    }
+}
+
+2	– Polymorphism
+Polymorphism and when two or more classes manage to have methods with the same signature, however the methods can have different behaviors
+//Janaina Gomes 21944- Exam dec 2021
+using System;
+
+namespace Test
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Vehicle[] Vehicle = new Vehicle[2];
+
+            Vehicle[0] = new Bus("Old");
+            Vehicle[1] = new Motorcycle("New");
+
+            Startvehicle(Vehicle[0]);
+            Startvehicle(Vehicle[1]);
+            Console.ReadKey();
+        }
+
+        public static void Startvehicle(Vehicle vehicle)
+        {
+            Console.WriteLine(vehicle.Description);
+            vehicle.Run();
+        }
+    }
+    }
+
+
+
+
+
+
+//Janaina Gomes 21944- Exam dec 2021
+using System;
+
+
+namespace Test
+{
+    public class Bus : Vehicle
+    {
+        public Bus (string TVehicle) : base(TVehicle) { }
+
+        public override void Run()
+        {
+            Console.WriteLine("Getting started");
+        }
+
+        public override void Stop()
+        {
+            Console.WriteLine("Stopping");
+        }
+    }
+}
+
+
+
+//Janaina Gomes 21944- Exam dec 2021
+
+using System;
+
+namespace Test
+{
+    public class Motorcycle : Vehicle
+    {
+        public Motorcycle(string TVehicle) : base(TVehicle) { }
+
+        public override void Run()
+        {
+            Console.WriteLine("Getting started again");
+        }
+
+        public override void Stop()
+        {
+            Console.WriteLine("Stopping again");
+        }
+    }
+}
+
+
+
+//Janaina Gomes 21944- Exam dec 2021
+namespace Test
+{
+    public class Vehicle
+    {
+        private string description;
+        public string Description
+        {
+            get { return description; }
+            set { description = value;  }
+        }
+
+        public Vehicle(string TVehicle)
+        {
+            this.description = TVehicle;
+        }
+        public virtual void Run() { }
+        public virtual void Stop() { }
+    }
+}
+
+
+3	- static member variables and methods
+Static classes are those that contain only static members, and they cannot be instantiated. The method is a block of code that contains a series of instructions declared within a class.
+Static members are fields, methods, events, or properties that can be called on a class even if an instance of that class has not been created.
+
+4	- interfaces, and 
+
+5	- abstract classes. 
+
+An abstract method has no implementation in the abstract class and only has its signature definition. Its implementation must be done in the derived class, it is a virtual method and must be implemented using the override modifier, it can only exist in an abstract class and cannot use static and virtual modifiers.

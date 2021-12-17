@@ -1,0 +1,16 @@
+C:\Users\jan_n\source\repos\Oop-exam-december-2021-21944\obj\Debug\net5.0\Oop-exam-december-2021-21944.csproj.AssemblyReference.cache
+C:\Users\jan_n\source\repos\Oop-exam-december-2021-21944\obj\Debug\net5.0\Oop-exam-december-2021-21944.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jan_n\source\repos\Oop-exam-december-2021-21944\obj\Debug\net5.0\Oop-exam-december-2021-21944.AssemblyInfoInputs.cache
+C:\Users\jan_n\source\repos\Oop-exam-december-2021-21944\obj\Debug\net5.0\Oop-exam-december-2021-21944.AssemblyInfo.cs
+C:\Users\jan_n\source\repos\Oop-exam-december-2021-21944\obj\Debug\net5.0\Oop-exam-december-2021-21944.csproj.CoreCompileInputs.cache
+C:\Users\jan_n\source\repos\Oop-exam-december-2021-21944\bin\Debug\net5.0\Oop-exam-december-2021-21944.exe
+C:\Users\jan_n\source\repos\Oop-exam-december-2021-21944\bin\Debug\net5.0\Oop-exam-december-2021-21944.deps.json
+C:\Users\jan_n\source\repos\Oop-exam-december-2021-21944\bin\Debug\net5.0\Oop-exam-december-2021-21944.runtimeconfig.json
+C:\Users\jan_n\source\repos\Oop-exam-december-2021-21944\bin\Debug\net5.0\Oop-exam-december-2021-21944.runtimeconfig.dev.json
+C:\Users\jan_n\source\repos\Oop-exam-december-2021-21944\bin\Debug\net5.0\Oop-exam-december-2021-21944.dll
+C:\Users\jan_n\source\repos\Oop-exam-december-2021-21944\bin\Debug\net5.0\ref\Oop-exam-december-2021-21944.dll
+C:\Users\jan_n\source\repos\Oop-exam-december-2021-21944\bin\Debug\net5.0\Oop-exam-december-2021-21944.pdb
+C:\Users\jan_n\source\repos\Oop-exam-december-2021-21944\obj\Debug\net5.0\Oop-exam-december-2021-21944.dll
+C:\Users\jan_n\source\repos\Oop-exam-december-2021-21944\obj\Debug\net5.0\ref\Oop-exam-december-2021-21944.dll
+C:\Users\jan_n\source\repos\Oop-exam-december-2021-21944\obj\Debug\net5.0\Oop-exam-december-2021-21944.pdb
+C:\Users\jan_n\source\repos\Oop-exam-december-2021-21944\obj\Debug\net5.0\Oop-exam-december-2021-21944.genruntimeconfig.cache
